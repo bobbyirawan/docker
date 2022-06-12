@@ -36,5 +36,5 @@ docker container inspect <name_container>
 
 7. remove container
 ```
-docker container rm <name_container>
+docker container rm <name_container> 
 ```
