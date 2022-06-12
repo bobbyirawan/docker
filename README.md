@@ -6,7 +6,7 @@
 
 1. run container 
 ```
-docker container start app1
+docker container start <name_container>
 ```
 
 2. cek run container
@@ -21,10 +21,15 @@ docker container ls -a
 
 4. cek log container
 ```
-docker container logs  app1
+docker container logs  <name_container>
 ```
 
-5.  rename container
+5. rename container
 ```
-docker rename my_container my_new_container
+docker rename <my_container> <my_new_container<>
+```
+
+6. cek environment
+```
+docker container inspect <name_container>
 ```
