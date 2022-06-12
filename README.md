@@ -33,3 +33,8 @@ docker rename <my_container> <my_new_container<>
 ```
 docker container inspect <name_container>
 ```
+
+7. remove container
+```
+docker container rm <name_container>
+```
