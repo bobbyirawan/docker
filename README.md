@@ -2,6 +2,14 @@
 
 - [container](#container)
 
+##### Image
+
+1. remove image
+```
+docker image rm <name_image>
+```
+
+
 ##### container
 
 1. run container 
@@ -36,5 +44,5 @@ docker container inspect <name_container>
 
 7. remove container
 ```
-docker container rm <name_container> 
+docker container rm <name_container>
 ```
